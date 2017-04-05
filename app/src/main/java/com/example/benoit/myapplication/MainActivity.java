@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        mArrayAdapter = new ArrayAdapter<String>(MainActivity.this,
+        mArrayAdapter = new ArrayAdapter<>(MainActivity.this,
                 android.R.layout.simple_expandable_list_item_1);
         ListView choiceView = (ListView) findViewById(R.id.choiceListView);
         choiceView.setAdapter(mArrayAdapter);
